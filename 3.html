@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Console</title>
+</head>
+<body>
+    <script>
+        'use strict';
+        let result1 = 10 +10 +"10";
+        console.log(result1);
+        /*
+        1.10 сложим на 10 ролучаем 20
+        2. 20 сложтм со строкой "10" получаем 2010
+        3. 2010 присваиваем в переменную result
+        4. c помощью console.log выводим result в консоль
+         */
+        let result2 = 10 + "10" + 10;
+        console.log(result2);
+        /*
+        1.10 сложим со строкой "10" олучаем 1010
+        2. 1010 сложим на цифру 10 получаем 101010
+        3. 101010 присваиваем в переменную result
+        4. c помощью console.log выводим result в консоль
+         */
+        let result3 = 10 + 10 + + "10";
+        console.log(result3);
+        /*
+        1. 10 сложим на 10 ролучаем 20
+        2. 20 сложим на цифру +10 получаем 30
+        3. 30 присваиваем в переменную result
+        4. c помощью console.log выводим result в консоль
+        */
+        let result4 = 10 / - "";
+        console.log(result4);
+        /*
+        1. 10 делим на  минус пустые кавички (наверное как ноль воспринимаются эти кавички)
+        2. получаем - infinity
+        3. - infinity присваиваем в переменную result
+        4. c помощью console.log выводим result в консоль
+         */
+        let result5 = 10 / + "2,5";
+        console.log(result5);
+        /*
+        1. Так как здесь запятая поэтому выдает NAN
+        2. 10 делим на NAN. получаем NAN
+        3. NAN присваиваем в переменную result
+        4. c помощью console.log выводим result в консоль
+         */
+    </script>
+</body>
+</html>
